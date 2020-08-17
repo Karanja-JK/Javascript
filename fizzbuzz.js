@@ -1,25 +1,25 @@
-var j;
+var i;
 
-for(j = 1; j<= 100; j++)
+for(i = 1; i<= 100; i++)
 {
-    if ( j%3 === 0 && j%5 === 0 )
+    if ( i%3 === 0 && i%5 === 0 )
     {
         console.log('FizzBuzz');
     }
 
-    else if( j%3 === 0)
+    else if( i%3 === 0)
     {
         console.log('Fizz');
     }
 
-    else if( j%5 === 0)
+    else if( i%5 === 0)
     {
         console.log('Buzz');
     }
 
     else
     {
-        console.log(j);
+        console.log(i);
     }
 
     
